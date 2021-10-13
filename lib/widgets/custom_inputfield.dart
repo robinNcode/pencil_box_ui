@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class CustomField extends StatelessWidget {
@@ -16,6 +17,7 @@ class CustomField extends StatelessWidget {
         labelText: labelText,
         labelStyle: TextStyle(color: labelColor),
         hintText: hintText,
+        hintStyle: const TextStyle(fontWeight: FontWeight.bold),
         floatingLabelBehavior: FloatingLabelBehavior.always,
         enabledBorder: OutlineInputBorder(
           borderSide: BorderSide(
