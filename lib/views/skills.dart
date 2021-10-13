@@ -1,5 +1,4 @@
 import 'package:pencil_box_ui/widgets/custom_skills_card.dart';
-import 'widgets/custom_skills_card.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:percent_indicator/linear_percent_indicator.dart';

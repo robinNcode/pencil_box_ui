@@ -25,7 +25,7 @@ class SignInPage extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text(
+              const Text(
                 'Sign In',
                 style: TextStyle(fontSize: 36, color: Color(0xFF122F51)),
               ),
@@ -34,7 +34,7 @@ class SignInPage extends StatelessWidget {
               ),
               Padding(
                 padding: EdgeInsets.only(top: _size.height / 20, left: _size.width/40),
-                child: Text(
+                child: const Text(
                   'Write Name',
                   style: TextStyle(fontSize: 22),
                 ),
@@ -45,7 +45,7 @@ class SignInPage extends StatelessWidget {
                   decoration: InputDecoration(
                     contentPadding: EdgeInsets.all(_size.width/20),
                     labelText: 'Name',
-                    labelStyle: TextStyle(color: Color(0xFF150050)),
+                    labelStyle: const TextStyle(color: Color(0xFF150050)),
                     floatingLabelBehavior: FloatingLabelBehavior.always,
                     enabledBorder: OutlineInputBorder(
                       borderSide: const BorderSide(
@@ -69,7 +69,7 @@ class SignInPage extends StatelessWidget {
                   children: [
                     Container(
                       margin: EdgeInsets.only(top: _size.height / 20),
-                      child: Text(
+                      child: const Text(
                         'For any help',
                         style: TextStyle(
                           fontSize: 18,
@@ -79,7 +79,7 @@ class SignInPage extends StatelessWidget {
                     ),
                     Container(
                       margin: EdgeInsets.only(top: _size.height / 60),
-                      child: Text(
+                      child: const Text(
                         'Call at 16479',
                         style: TextStyle(fontSize: 20, color: Colors.red),
                       ),
@@ -94,10 +94,10 @@ class SignInPage extends StatelessWidget {
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           Navigator.push(
-              context, MaterialPageRoute(builder: (context) => RegistrationPage()));
+              context, MaterialPageRoute(builder: (context) => const RegistrationPage()));
         },
         backgroundColor: Colors.red,
-        child: Icon(
+        child: const Icon(
           Icons.arrow_forward,
           size: 30,
         ),

@@ -4,7 +4,7 @@ import 'package:pencil_box_ui/views/loading_page.dart';
 import 'package:pencil_box_ui/views/signin.dart';
 
 void main(){
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {

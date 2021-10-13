@@ -1,9 +1,7 @@
 import 'dart:async';
-
-import 'package:pencil_box_ui/pages/signin.dart';
-
-import 'signing.dart';
 import 'package:flutter/material.dart';
+
+import 'gender.dart';
 
 
 class LoadingPage extends StatelessWidget {
@@ -40,7 +38,7 @@ class _LoadingState extends State<Loading>  with TickerProviderStateMixin{
     controller.repeat(reverse: false);
 
     Timer(const Duration(seconds: 3), (){
-      Navigator.push(context, MaterialPageRoute(builder: (context) => HomePage()));
+      Navigator.push(context, MaterialPageRoute(builder: (context) => const GenderPage()));
     });
 
     super.initState();
@@ -59,11 +57,9 @@ class _LoadingState extends State<Loading>  with TickerProviderStateMixin{
                   child: Padding(
                     padding: const EdgeInsets.only(top: 30),
                     child: GestureDetector(
-                      onTap: (){
-                        Navigator.push(context, MaterialPageRoute(builder: (context) => const SignInPage()));
-                      }, 
+                      onTap: (){},
                       child: Image(
-                        image: const AssetImage('assets/exam3/images/pencilbox.png'),
+                        image: const AssetImage('assets/images/pencilbox.png'),
                         width: MediaQuery.of(context).size.width/2.5,
                         height: MediaQuery.of(context).size.height/2,
                       ),
