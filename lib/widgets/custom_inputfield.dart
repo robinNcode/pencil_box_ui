@@ -17,7 +17,7 @@ class CustomField extends StatelessWidget {
         labelText: labelText,
         labelStyle: TextStyle(color: labelColor),
         hintText: hintText,
-        hintStyle: const TextStyle(fontWeight: FontWeight.bold),
+        hintStyle: const TextStyle(fontSize:18, fontWeight: FontWeight.bold),
         floatingLabelBehavior: FloatingLabelBehavior.always,
         enabledBorder: OutlineInputBorder(
           borderSide: BorderSide(
