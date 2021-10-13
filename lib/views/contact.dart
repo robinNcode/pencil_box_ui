@@ -30,6 +30,7 @@ class ContactPage extends StatelessWidget {
             child: Padding(
               padding: EdgeInsets.symmetric(horizontal: _size.width / 20),
               child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   SizedBox(
                     height: _size.height / 20,
