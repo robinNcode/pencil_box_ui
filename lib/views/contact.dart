@@ -2,7 +2,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
 import 'package:flutter/rendering.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:pencil_box_ui/views/password.dart';
 import 'package:pencil_box_ui/widgets/custom_inputfield.dart';
 import 'package:percent_indicator/linear_percent_indicator.dart';
@@ -33,7 +32,7 @@ class ContactPage extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   SizedBox(
-                    height: _size.height / 20,
+                    height: _size.height / 30,
                   ),
                   Padding(
                     padding: EdgeInsets.only(left: _size.width / 12),

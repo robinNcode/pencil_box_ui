@@ -29,7 +29,7 @@ class GenderPage extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 SizedBox(
-                  height: _size.height / 20,
+                  height: _size.height / 30,
                 ),
                 Padding(
                   padding: EdgeInsets.only(left: _size.width / 7),
