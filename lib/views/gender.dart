@@ -32,16 +32,16 @@ class GenderPage extends StatelessWidget {
                   height: _size.height / 20,
                 ),
                 Padding(
-                  padding: EdgeInsets.only(left: _size.width / 8),
+                  padding: EdgeInsets.only(left: _size.width / 7),
                   child: LinearPercentIndicator(
                     width: _size.width - 100,
                     lineHeight: 6.0,
-                    percent: 0.4,
+                    percent: 0.6,
                     progressColor: Colors.green,
                   ),
                 ),
                 SizedBox(
-                  height: _size.height / 10,
+                  height: _size.height / 15,
                 ),
                 Padding(
                   padding: EdgeInsets.only(left: _size.width / 12),
