@@ -146,7 +146,7 @@ class GenderPage extends StatelessWidget {
                   ),
                 ),
                 SizedBox(
-                  height: _size.height / 5,
+                  height: _size.height / 4,
                 ),
                 Align(
                   alignment: Alignment.bottomCenter,
