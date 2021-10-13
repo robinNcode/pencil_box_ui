@@ -56,7 +56,7 @@ class GenderPage extends StatelessWidget {
                       left: _size.width / 13,
                       right: _size.width / 13),
                   child: Container(
-                    height: 50,
+                    height: 45,
                     child: Row(
                       children: const [
                         Padding(
@@ -66,7 +66,7 @@ class GenderPage extends StatelessWidget {
                         ),
                         Text(
                           '  Male',
-                          style: TextStyle(fontSize: 20, color: Color(0xFF2E64A4),),
+                          style: TextStyle(fontSize: 18, color: Color(0xFF2E64A4),),
                         )
                       ],
                     ),
@@ -87,7 +87,7 @@ class GenderPage extends StatelessWidget {
                       left: _size.width / 13,
                       right: _size.width / 13),
                   child: Container(
-                    height: 50,
+                    height: 45,
                     child: Row(
                       children: [
                         Padding(
@@ -99,7 +99,7 @@ class GenderPage extends StatelessWidget {
                         ),
                         const Text(
                           '  Female',
-                          style: TextStyle(fontSize: 20, color: Colors.white,),
+                          style: TextStyle(fontSize: 18, color: Colors.white,),
                         )
                       ],
                     ),
@@ -120,7 +120,7 @@ class GenderPage extends StatelessWidget {
                       left: _size.width / 13,
                       right: _size.width / 13),
                   child: Container(
-                    height: 50,
+                    height: 45,
                     child: Row(
                       children: [
                         Padding(
@@ -130,7 +130,7 @@ class GenderPage extends StatelessWidget {
                         ),
                         const Text(
                           '  Other',
-                          style: TextStyle(fontSize: 20, color: Color(0xFF2E64A4),),
+                          style: TextStyle(fontSize: 18, color: Color(0xFF2E64A4),),
                         )
                       ],
                     ),
